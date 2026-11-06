@@ -1,0 +1,45 @@
+{
+  "title": "Lab sheet · Photosynthesis: from the greenhouse to the chloroplast",
+  "course": "Campbell Biology · Chapter 10 · Concept 10.2",
+  "aim": "To find what limits the rate of photosynthesis, locate where it happens in the leaf, and use the two-stage model and isotope tracers to explain how the light reactions and the Calvin cycle cooperate.",
+  "references": [
+    "Figure 10.3 · Zooming in on the location of photosynthesis in a plant",
+    "Figure 10.4 · Tracking atoms through photosynthesis",
+    "Figure 10.5 · An overview of photosynthesis: cooperation of the light reactions and the Calvin cycle"
+  ],
+  "sections": {
+    "hypotheses": "1 · Hypotheses",
+    "variables": "2 · Variables",
+    "method": "3 · Method",
+    "results": "4 · Results",
+    "graphs": "5 · Graphs",
+    "conceptCheck": "6 · Concept Check 10.2",
+    "conclusion": "7 · Conclusion",
+    "evaluation": "8 · Evaluation"
+  },
+  "variables": {
+    "greenhouse": {
+      "independent": "Light intensity, soil water and CO₂ level (one changed at a time)",
+      "dependent": "Photosynthetic activity (simulated rate, 0–100)",
+      "controlled": "The same plant, the other two inputs held constant"
+    },
+    "chloroplast": {
+      "independent": "Light (on/off) and CO₂ supply (present/removed); the ¹⁸O-labeled reactant",
+      "dependent": "O₂ release, ATP/NADPH level, sugar output; where the ¹⁸O label appears",
+      "controlled": "Chloroplast model parameters and run time (about 4 s per test)"
+    }
+  },
+  "method": [
+    "Predicted how photosynthetic activity responds to increasing light, then tested it in the greenhouse by changing one input at a time.",
+    "Zoomed from the leaf to a mesophyll cell, a chloroplast and the two-stage model, tracing the path of CO₂.",
+    "Predicted, then tested, what happens to O₂ release when CO₂ is removed and to sugar output when the light is switched off.",
+    "Labeled H₂O and then CO₂ with ¹⁸O and followed the label into the products; placed every atom of the equation.",
+    "Diagnosed three mystery chloroplasts and fixed a new greenhouse plant."
+  ],
+  "evaluation": {
+    "prompt": "Limitations of the model and how the investigation could be improved",
+    "default": "The activity model takes the lowest input and is not perfectly linear like a real plant. The chloroplast model treats the light reactions and the Calvin cycle as two modules and leaves out photosystems, the electron transport chain and the individual Calvin cycle steps (Concepts 10.3–10.4). A real investigation would repeat each measurement, measure O₂ with a sensor and use a mass spectrometer to detect ¹⁸O."
+  },
+  "conclusionPrompt": "Write your conclusion. It has been started from your explanations; edit it in your own words.",
+  "printNote": "Use Save as PDF in the print dialog to keep a copy."
+}

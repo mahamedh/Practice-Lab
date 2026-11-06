@@ -1,0 +1,67 @@
+{
+  "MORE_LIGHT_ALWAYS_INCREASES_RATE": {
+    "label": "More sunlight always means more photosynthesis",
+    "trigger": {
+      "type": "trial",
+      "description": "Raises light first while light is not the limiting factor",
+      "variable": "light",
+      "whenNotLimiting": true,
+      "firstChangeOnly": true,
+      "stages": ["apply"]
+    },
+    "clear": {
+      "description": "Then raises the real limiting factor and explains why light did not help",
+      "requiresLimitingFix": true,
+      "requiresIdea": "waterLimiting"
+    },
+    "feedback": "You increased sunlight, but the plant's activity did not improve. Why? Because water was the limiting factor. Increasing an input that is already sufficient cannot solve a different limitation."
+  },
+  "LIGHT_REACTIONS_INDEPENDENT": {
+    "label": "With continual light, the light reactions keep making ATP and NADPH on their own",
+    "source": "Concept Check 10.2 · question 3",
+    "trigger": {
+      "type": "prediction",
+      "description": "Predicts O₂ release stays the same or rises when CO₂ is removed with the light on",
+      "prediction": "o2NoCo2"
+    },
+    "clear": {
+      "description": "Runs the CO₂-off test and either explains ADP/NADP⁺ recycling or solves the closed-stomata case",
+      "evidence": "co2Off",
+      "idea": "recycle",
+      "orChallenge": "stomata"
+    },
+    "feedback": "With CO₂ removed, the Calvin cycle stopped using ATP and NADPH. ADP and NADP⁺ were no longer returned, so the light reactions stalled and O₂ release fell. The two stages depend on each other."
+  },
+  "CALVIN_CYCLE_RUNS_IN_DARK": {
+    "label": "The ‘dark reactions’ run in the dark",
+    "source": "The Two Stages of Photosynthesis",
+    "trigger": {
+      "type": "prediction",
+      "description": "Predicts sugar output stays the same or rises when the light is switched off",
+      "prediction": "sugarDark"
+    },
+    "clear": {
+      "description": "Runs the light-off test and either explains that the Calvin cycle uses ATP and NADPH or solves the midnight case",
+      "evidence": "lightOff",
+      "idea": "calvinUses",
+      "orChallenge": "night"
+    },
+    "feedback": "None of the Calvin cycle steps uses light directly, but it needs the ATP and NADPH the light reactions make. In the dark the supply ran out and sugar output stopped."
+  },
+  "O2_COMES_FROM_CO2": {
+    "label": "The O₂ released by plants comes from CO₂",
+    "source": "The Splitting of Water: Scientific Inquiry",
+    "trigger": {
+      "type": "hypothesis",
+      "description": "Pins the prevailing CO₂-splitting hypothesis before running the tracer experiments",
+      "hypothesis": "co2"
+    },
+    "clear": {
+      "description": "Runs experiment 1 (¹⁸O in water) and either explains that O₂ comes from water or solves the sulfur-bacterium case",
+      "evidence": "h2o18",
+      "idea": "waterSplit",
+      "orChallenge": "sulfur"
+    },
+    "feedback": "This was the prevailing hypothesis until the 1930s. The ¹⁸O label reached the released O₂ only when it started in water: the chloroplast splits H₂O, and O₂ is the by-product."
+  }
+}

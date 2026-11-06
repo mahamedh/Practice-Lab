@@ -1,0 +1,21 @@
+{
+  "wateringCan": {
+    "url": "/models/watering_can_creativetrio.glb",
+    "size": [null, 0.3, null],
+    "rotation": [0, 3.14159, 0],
+    "spout": [-0.5, 0.75, 0],
+    "material": { "color": "#3f9a6e", "metalness": 0.45, "roughness": 0.38 },
+    "credit": "Watering Can by CreativeTrio, CC0, poly.pizza/m/b2R90QehIt"
+  },
+  "co2Tank": {
+    "url": null,
+    "size": [null, 1.12, null],
+    "rotation": [0, 0, 0]
+  },
+  "bench": {
+    "url": "/models/small_table_quaternius.glb",
+    "size": [1.9, 0.82, 0.85],
+    "rotation": [0, 0, 0],
+    "credit": "Small Table by Quaternius, CC0, poly.pizza/m/rAEBvfb1FT"
+  }
+}

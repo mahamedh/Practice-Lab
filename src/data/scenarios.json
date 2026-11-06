@@ -1,0 +1,51 @@
+{
+  "mission": {
+    "eyebrow": "Practice Lab · Concept 10.2",
+    "title": "Mission: Save the plant",
+    "body": "This plant is not growing well. You control its environment. Investigate what it needs, test your ideas, and find what is limiting its growth.",
+    "start": "Start investigation",
+    "inspectHint": "Drag to look around the greenhouse"
+  },
+  "variables": {
+    "light": { "label": "Light", "noun": "sunlight", "min": 0, "max": 100, "step": 1, "dragHint": "Drag the sun higher" },
+    "water": { "label": "Water", "noun": "water", "min": 0, "max": 100, "step": 1, "dragHint": "Grab the watering can and tilt it" },
+    "co2": { "label": "CO₂", "noun": "carbon dioxide", "min": 0, "max": 100, "step": 1, "dragHint": "Turn the valve on the CO₂ tank" }
+  },
+  "predict": {
+    "context": "The plant has enough water and CO₂, but very little sunlight.",
+    "question": "What will happen to photosynthesis if we increase the sunlight?",
+    "instruction": "Drag the end of the line to show your prediction.",
+    "testVariable": "light",
+    "options": [
+      { "id": "increase", "label": "It will increase", "short": "Increase" },
+      { "id": "same", "label": "It will stay the same", "short": "Stay the same" },
+      { "id": "decrease", "label": "It will decrease", "short": "Decrease" }
+    ],
+    "correct": "increase",
+    "confirm": "Use this prediction"
+  },
+  "scenarios": {
+    "A": {
+      "id": "A",
+      "name": "Greenhouse A",
+      "stage": "experiment",
+      "initial": { "light": 20, "water": 80, "co2": 80 },
+      "limiting": "light",
+      "story": "Enough water and CO₂, very little sunlight."
+    },
+    "B": {
+      "id": "B",
+      "name": "Greenhouse B",
+      "stage": "apply",
+      "initial": { "light": 60, "water": 20, "co2": 80 },
+      "limiting": "water",
+      "story": "Plenty of sunlight and CO₂, but the soil is almost dry.",
+      "goalActivity": 50,
+      "why": {
+        "question": "Why would adding more sunlight not fix this plant?",
+        "placeholder": "Adding more sunlight would not help because…",
+        "starters": ["Water was the limiting factor because ", "The plant already had enough light, so "]
+      }
+    }
+  }
+}

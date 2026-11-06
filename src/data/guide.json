@@ -1,0 +1,57 @@
+{
+  "stages": {
+    "intro": "Look around. What is wrong with this plant?",
+    "predict": "Make a prediction before you touch anything.",
+    "experiment": {
+      "testPrediction": "Let's test your prediction. Drag the sun higher.",
+      "tryOther": "Light helped. Does more water help too? Grab the watering can.",
+      "keyMoment": "Why didn't that help? Look at what is still holding the plant back.",
+      "ready": "Light was the limiting factor. But where does the light actually get used? Zoom into a leaf."
+    },
+    "zoom": {
+      "co2path": "Trace the CO₂: click the stoma, then the air space, a mesophyll cell and a chloroplast.",
+      "wrongPath": "Not yet. {hint}",
+      "leaf": "Path traced. Click the glowing mesophyll cell to go inside.",
+      "cell": "About 30–40 chloroplasts per cell. Click a chloroplast to zoom in.",
+      "chloroplast": "Thylakoids stacked into grana, floating in the stroma. Open the two stages.",
+      "whatIf": "Your classmate says the light reactions don't need the Calvin cycle. Predict first.",
+      "coupling": "Test it: remove CO₂ with the light on, then switch the light off.",
+      "couplingNext": "Now try the other test.",
+      "hypothesis": "Where does the O₂ come from? Pin a hypothesis.",
+      "isotope": "Drag the ¹⁸O tag onto H₂O or CO₂ in the chloroplast.",
+      "isotopeNext": "Now label the other reactant.",
+      "ledger": "Place every atom in the product it ends up in.",
+      "ready": "You traced CO₂, tested both stages and tracked the atoms. Explain it."
+    },
+    "explain": "Use your evidence to explain what happened.",
+    "explain2": "Now explain the chloroplast: where O₂ comes from and why the stages need each other.",
+    "apply": {
+      "start": "A new plant, a new problem. Find what is limiting it and fix it.",
+      "wrongFirst": "Activity barely moved. What is this plant really missing?",
+      "solved": "The plant is recovering. One last question.",
+      "done": "Nice work. One final challenge."
+    },
+    "challenge": {
+      "case": "{title}. {prompt}",
+      "why": "Diagnosis correct. Justify it in a sentence.",
+      "passed": "Challenge passed. Write up your lab sheet.",
+      "done": "All cases attempted. Write up your lab sheet."
+    },
+    "report": "Your lab sheet is filled from your evidence. Edit the conclusion, then see your mastery report."
+  },
+  "changes": {
+    "limitingUp": "{Var} {from} → {to}. Activity rose {aFrom} → {aTo} because {var} was the limiting factor.",
+    "limitingUpNewLimit": "{Var} {from} → {to}. Activity rose {aFrom} → {aTo}. Now {limiting} {isAre} the limiting {factor}.",
+    "nonLimitingUp": "{Var} {from} → {to}. Activity stayed at {aTo}: {limiting} {isAre} still the limiting {factor}.",
+    "coLimitedUp": "{Var} {from} → {to}. Activity stayed at {aTo}: {limiting} {isAre} also limiting the plant.",
+    "becameLimiting": "{Var} {from} → {to}. Activity fell {aFrom} → {aTo}. {Var} is now the limiting factor.",
+    "down": "{Var} {from} → {to}. Activity {aFrom} → {aTo}.",
+    "noChange": "{Var} {from} → {to}. Activity stayed at {aTo}."
+  },
+  "comparison": {
+    "supported": "Your prediction was supported by this experiment.",
+    "different": "Your prediction was different from the result. Look at the light reaching the leaves and compare the activity before and after your change. What does this evidence suggest?",
+    "observed": "Increasing light increased the activity while light was the limiting factor."
+  },
+  "model": "Simplified model: activity = the lowest of light, water and CO₂. Real photosynthesis depends on many more factors and is not perfectly linear."
+}

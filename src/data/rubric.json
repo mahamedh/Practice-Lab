@@ -1,0 +1,203 @@
+{
+  "explain": {
+    "question": "Why did increasing the sunlight increase photosynthesis in this experiment?",
+    "placeholder": "Increasing the sunlight helped because…",
+    "starters": ["Light provides ", "Light was the limiting factor because ", "Adding more water did not help because "],
+    "ideas": [
+      {
+        "id": "energy",
+        "label": "Light supplies energy for photosynthesis",
+        "required": true,
+        "groups": [
+          ["light", "sun", "sunlight", "sunshine"],
+          ["energy", "power", "fuel", "powers", "drives"]
+        ],
+        "hint": "You identified what the plant needed. Can you explain why light affects the process?"
+      },
+      {
+        "id": "limiting",
+        "label": "Light was the limiting factor at the start",
+        "required": true,
+        "groups": [
+          ["light", "sun", "sunlight"],
+          ["limit", "limiting", "limited", "bottleneck", "not enough", "too little", "lacking", "shortage", "lowest", "least", "insufficient", "low", "needed more", "missing"]
+        ],
+        "hint": "What was holding the plant back before you changed anything?"
+      },
+      {
+        "id": "sufficient",
+        "label": "Adding more of an input that is already enough does not help",
+        "required": false,
+        "groups": [
+          ["water", "co2", "co₂", "carbon dioxide", "other input", "other factor", "already enough", "already had"],
+          ["did not", "didn't", "does not", "doesn't", "no effect", "not change", "stayed", "same", "wouldn't", "would not", "no difference", "not help", "already enough", "enough"]
+        ],
+        "hint": "Think about the water test. Why didn't extra water change the activity?"
+      }
+    ]
+  },
+  "applyWhy": {
+    "ideas": [
+      {
+        "id": "waterLimiting",
+        "label": "Water was the limiting factor",
+        "required": true,
+        "groups": [
+          ["water", "soil", "dry"],
+          ["limit", "limiting", "limited", "not enough", "too little", "lacking", "dry", "low", "shortage", "lowest", "least", "insufficient", "missing", "needed"]
+        ],
+        "hint": "Which input was lowest in this greenhouse?"
+      },
+      {
+        "id": "lightEnough",
+        "label": "Light was already sufficient",
+        "required": false,
+        "groups": [
+          ["light", "sun", "sunlight"],
+          ["already", "enough", "plenty", "sufficient", "not help", "wouldn't", "won't", "doesn't", "does not", "no effect", "not the problem"]
+        ],
+        "hint": "Did this plant actually need more light?"
+      }
+    ]
+  },
+  "explain2": {
+    "source": "Concept Check 10.2 · questions 2 and 3",
+    "question": "Use your chloroplast evidence: where does the O₂ come from, and why do the light reactions and the Calvin cycle need each other?",
+    "placeholder": "The O₂ comes from… The light reactions… The Calvin cycle…",
+    "starters": ["The ¹⁸O experiments showed the O₂ comes from ", "The light reactions use light to make ", "The Calvin cycle uses ATP and NADPH to ", "When CO₂ was removed, "],
+    "ideas": [
+      {
+        "id": "waterSplit",
+        "label": "O₂ comes from splitting water",
+        "required": true,
+        "groups": [
+          ["o2", "o₂", "oxygen"],
+          ["water", "h2o", "h₂o"]
+        ],
+        "hint": "Which reactant did the ¹⁸O label have to be in to show up in the released O₂?"
+      },
+      {
+        "id": "lightMakes",
+        "label": "The light reactions use light energy to make ATP and NADPH",
+        "required": true,
+        "groups": [
+          ["light", "thylakoid", "photo"],
+          ["atp", "nadph"],
+          ["make", "makes", "made", "produce", "produces", "produced", "generate", "form", "supply", "supplies", "provide", "provides"]
+        ],
+        "hint": "What do the light reactions produce for the Calvin cycle?"
+      },
+      {
+        "id": "calvinUses",
+        "label": "The Calvin cycle uses ATP and NADPH to turn CO₂ into sugar",
+        "required": true,
+        "groups": [
+          ["calvin", "stroma", "dark reaction", "light-independent", "light independent"],
+          ["atp", "nadph"],
+          ["co2", "co₂", "carbon", "sugar", "glucose", "carbohydrate", "ch2o", "g3p"]
+        ],
+        "hint": "What does the Calvin cycle need from the light reactions, and what does it make?"
+      },
+      {
+        "id": "recycle",
+        "label": "ADP and NADP⁺ must return to the light reactions",
+        "required": false,
+        "groups": [
+          ["adp", "nadp+", "nadp⁺", "nadp +"],
+          ["return", "back", "recycl", "regenerat", "run out", "runs out", "ran out", "need", "needs", "stop", "stops", "stopped"]
+        ],
+        "hint": "When CO₂ was removed, why did O₂ release stop too? Think about ADP and NADP⁺."
+      },
+      {
+        "id": "redox",
+        "label": "CO₂ is reduced and water is oxidized",
+        "required": false,
+        "groups": [
+          ["reduc"],
+          ["oxidi", "oxidis"]
+        ],
+        "hint": "Which molecule is reduced and which is oxidized?"
+      }
+    ]
+  },
+  "challenge": {
+    "stomata": {
+      "placeholder": "O₂ release fell because…",
+      "starters": ["With the stomata closed, ", "The Calvin cycle stopped, so ", "ADP and NADP⁺ "],
+      "ideas": [
+        {
+          "id": "noCo2",
+          "label": "Closed stomata cut off CO₂, so the Calvin cycle stopped",
+          "required": true,
+          "groups": [
+            ["co2", "co₂", "carbon dioxide", "calvin"],
+            ["stomata", "stoma", "closed", "no ", "not ", "can't", "cannot", "blocked", "without", "stop", "stopped", "stops", "run out", "ran out"]
+          ],
+          "hint": "What could no longer get into the leaf, and which stage needs it?"
+        },
+        {
+          "id": "noRecycle",
+          "label": "No ADP and NADP⁺ came back, so the light reactions stalled",
+          "required": true,
+          "groups": [
+            ["adp", "nadp+", "nadp⁺", "atp", "nadph", "light reaction", "thylakoid"],
+            ["return", "back", "recycl", "pile", "build", "accumulat", "run out", "ran out", "stall", "stop", "stopped", "used up", "not used"]
+          ],
+          "hint": "The light reactions need ADP and NADP⁺ to make more ATP and NADPH. Where do those come from?"
+        }
+      ]
+    },
+    "night": {
+      "placeholder": "The Calvin cycle can't run at night because…",
+      "starters": ["In the dark, the light reactions ", "The Calvin cycle needs "],
+      "ideas": [
+        {
+          "id": "noSupply",
+          "label": "Without light, the light reactions make no ATP and NADPH",
+          "required": true,
+          "groups": [
+            ["light", "dark", "night", "thylakoid"],
+            ["atp", "nadph"]
+          ],
+          "hint": "What do the light reactions stop making in the dark?"
+        },
+        {
+          "id": "calvinNeeds",
+          "label": "The Calvin cycle needs ATP and NADPH to make sugar",
+          "required": true,
+          "groups": [
+            ["calvin", "sugar", "stroma"],
+            ["need", "needs", "require", "requires", "depend", "use", "uses", "without", "no ", "stop", "stops", "can't", "cannot"]
+          ],
+          "hint": "Link the missing supply to the Calvin cycle."
+        }
+      ]
+    },
+    "sulfur": {
+      "placeholder": "It releases sulfur because…",
+      "starters": ["It splits H₂S instead of water, so ", "The O₂ in plants comes from "],
+      "ideas": [
+        {
+          "id": "splitsH2s",
+          "label": "It splits H₂S as its hydrogen source, releasing S",
+          "required": true,
+          "groups": [
+            ["h2s", "h₂s", "hydrogen sulfide", "hydrogen sulphide", "sulfide", "sulphide"],
+            ["split", "splits", "sulfur", "sulphur", "hydrogen", "electron", "instead"]
+          ],
+          "hint": "Which molecule does this organism split, and what is left over?"
+        },
+        {
+          "id": "o2FromWater",
+          "label": "Plants release O₂ only because they split water",
+          "required": false,
+          "groups": [
+            ["o2", "o₂", "oxygen"],
+            ["water", "h2o", "h₂o"]
+          ],
+          "hint": "Compare it with a plant: where does a plant’s O₂ come from?"
+        }
+      ]
+    }
+  }
+}

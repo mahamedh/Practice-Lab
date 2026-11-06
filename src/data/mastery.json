@@ -1,0 +1,27 @@
+{
+  "concept": "Photosynthesis: limiting factors, sites and the two stages (Concept 10.2)",
+  "evidence": [
+    { "id": "prediction", "label": "Prediction", "requirement": "Correct initial prediction" },
+    { "id": "experiment", "label": "Experiment", "requirement": "Raised the limiting input and observed its effect" },
+    { "id": "sites", "label": "Sites", "requirement": "Traced CO₂ from the stoma to the chloroplast (Concept Check 1)" },
+    { "id": "stages", "label": "Two stages", "requirement": "Tested CO₂ off and light off and saw the stages depend on each other (Concept Check 3)" },
+    { "id": "atoms", "label": "Atom tracking", "requirement": "Ran both ¹⁸O experiments and placed every atom (Concept Check 2)" },
+    { "id": "explanation", "label": "Explanation", "requirement": "Included the essential reasoning for both questions" },
+    { "id": "application", "label": "Application", "requirement": "Fixed the new plant and explained why" },
+    { "id": "challenge", "label": "Final challenge", "requirement": "Diagnosed at least 2 of 3 mystery chloroplasts with a justification" }
+  ],
+  "levels": {
+    "mastered": {
+      "title": "Concept mastered",
+      "body": "You found the limiting input, traced CO₂ to the chloroplast, showed with isotopes that O₂ comes from water, proved the two stages depend on each other, and applied it to new cases."
+    },
+    "developing": {
+      "title": "Almost there",
+      "body": "Most of the evidence is there, but one or more essential ideas are still missing. Try the parts marked below again."
+    },
+    "retry": {
+      "title": "Needs another attempt",
+      "body": "The evidence does not show the concept yet. Revisit the experiment and the chloroplast and watch how each stage responds."
+    }
+  }
+}

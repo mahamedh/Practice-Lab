@@ -1,0 +1,335 @@
+{
+  "id": "10.2",
+  "concept": "Concept 10.2",
+  "title": "Photosynthesis converts light energy to the chemical energy of food",
+  "modelNote": "Simplified two-stage model (Figure 10.5): the light reactions and the Calvin cycle are treated as modules that exchange ATP, NADPH, ADP and NADP⁺. Real chloroplasts involve many more steps (Concepts 10.3 and 10.4).",
+
+  "book": [
+    { "type": "p", "text": "The remarkable ability of an organism to harness light energy and use it to drive the synthesis of organic compounds emerges from structural organization in the cell: Photosynthetic enzymes and other molecules are grouped together as specialized molecular complexes in a biological membrane, enabling the necessary series of chemical reactions to be carried out efficiently. The process of photosynthesis most likely originated in a group of bacteria that had infolded regions of the plasma membrane containing clusters of such molecules. In currently existing photosynthetic bacteria, infolded photosynthetic membranes function similarly to the internal membranes of the chloroplast, the eukaryotic organelle that absorbs energy from sunlight and uses it to drive the synthesis of organic compounds from carbon dioxide (CO₂) and water (H₂O). According to what has come to be known as the endosymbiont theory, the original chloroplast was a photosynthetic bacterium that lived inside an ancestor of eukaryotic cells." },
+    { "type": "h2", "text": "Chloroplasts: The Sites of Photosynthesis in Plants" },
+    { "type": "p", "text": "All green parts of a plant, including green stems and unripened fruit, have chloroplasts, but the leaves are the major sites of photosynthesis in most plants (Figure 10.3). There are about half a million chloroplasts in a chunk of leaf with a top surface area of 1 mm². Chloroplasts are found mainly in the cells of the mesophyll, the tissue in the interior of the leaf. CO₂ enters the leaf, and O₂ exits, by way of microscopic pores called stomata (singular, stoma; from the Greek, meaning “mouth”). Water absorbed by the roots is delivered to the leaves in veins. Leaves also use veins to export sugar to roots and other nonphotosynthetic parts of the plant." },
+    { "type": "figure", "label": "Figure 10.3", "text": "Zooming in on the location of photosynthesis in a plant. Leaves are the major organs of photosynthesis in plants. These images take you into a leaf, then into a cell, and finally into a chloroplast, the organelle where photosynthesis occurs.", "lab": "zoom",
+      "image": "/book/fig10-3.png", "alt": "A leaf, its cross section with stomata and veins, a mesophyll cell and a chloroplast with thylakoids, grana and stroma", "layout": "tall",
+      "labShots": [
+        { "src": "/book/lab-leaf.png", "caption": "Trace CO₂ from a stoma to a chloroplast" },
+        { "src": "/book/lab-cell.png", "caption": "Chloroplasts streaming in a mesophyll cell" },
+        { "src": "/book/lab-chloroplast.png", "caption": "Inside the chloroplast: grana and stroma" }
+      ] },
+    { "type": "p", "text": "A typical mesophyll cell has about 30–40 chloroplasts, each measuring about 2–4 µm by 4–7 µm. A chloroplast has two membranes surrounding a dense fluid called the stroma. Suspended within the stroma is a third membrane system, made up of sacs called thylakoids, which segregates the stroma from the thylakoid space inside these sacs. In some places, thylakoid sacs are stacked in columns called grana (singular, granum). Chlorophyll, the green pigment that gives leaves their color, resides in the thylakoid membranes of the chloroplast. It is the light energy absorbed by chlorophyll that drives the synthesis of organic molecules in the chloroplast." },
+    { "type": "h2", "text": "Tracking Atoms Through Photosynthesis" },
+    { "type": "p", "text": "Scientists have tried for centuries to piece together the process by which plants make food. Although some of the steps are still not completely understood, the overall photosynthetic equation has been known since the 1800s: In the presence of light, the green parts of plants produce organic compounds and O₂ from CO₂ and H₂O. We can summarize the complex series of chemical reactions in photosynthesis with this chemical equation:" },
+    { "type": "equation", "text": "6 CO₂ + 12 H₂O + Light energy → C₆H₁₂O₆ + 6 O₂ + 6 H₂O" },
+    { "type": "p", "text": "We use glucose (C₆H₁₂O₆) here to simplify the relationship between photosynthesis and respiration, but the direct product of photosynthesis is actually a three-carbon sugar that can be used to make glucose. Water appears on both sides of the equation because 12 molecules are consumed and 6 molecules are newly formed during photosynthesis. We can simplify the equation by indicating only the net consumption of water:" },
+    { "type": "equation", "text": "6 CO₂ + 6 H₂O + Light energy → C₆H₁₂O₆ + 6 O₂" },
+    { "type": "p", "text": "Writing the equation in this form, we can see that the overall chemical change during photosynthesis is the reverse of the one that occurs during cellular respiration. It is important to realize that both of these metabolic processes occur in plant cells. However, chloroplasts do not synthesize sugars by simply reversing the steps of respiration. Now let’s divide the photosynthetic equation by 6 to put it in its simplest possible form:" },
+    { "type": "equation", "text": "CO₂ + H₂O → [CH₂O] + O₂" },
+    { "type": "p", "text": "Here, the brackets indicate that CH₂O is not an actual sugar but represents the general formula for a carbohydrate. In other words, we are imagining the synthesis of a sugar molecule one carbon at a time (with six repetitions theoretically adding up to a glucose molecule: C₆H₁₂O₆)." },
+    { "type": "h3", "text": "The Splitting of Water: Scientific Inquiry" },
+    { "type": "p", "text": "One of the first clues to the mechanism of photosynthesis came from the discovery that the O₂ given off by plants is derived from H₂O and not from CO₂. The chloroplast splits water into hydrogen and oxygen atoms. Before this discovery, the prevailing hypothesis was that photosynthesis split carbon dioxide (CO₂ → C + O₂) and then added water to the carbon (C + H₂O → [CH₂O]). That hypothesis predicted that the O₂ released during photosynthesis came from CO₂, an idea challenged in the 1930s by C. B. van Niel, of Stanford University. Van Niel was investigating photosynthesis in bacteria that make their carbohydrate from CO₂ but do not release O₂. One group of bacteria used hydrogen sulfide (H₂S) rather than water for photosynthesis, forming yellow globules of sulfur as a waste product." },
+    { "type": "equation", "text": "Sulfur bacteria:  CO₂ + 2 H₂S → [CH₂O] + H₂O + 2 S\nPlants:  CO₂ + 2 H₂O → [CH₂O] + H₂O + O₂\nGeneral:  CO₂ + 2 H₂X → [CH₂O] + H₂O + 2 X" },
+    { "type": "p", "text": "Van Niel reasoned that the bacteria split H₂S and used the hydrogen atoms to make sugar, and hypothesized that plants split H₂O as a source of electrons from hydrogen atoms, releasing O₂ as a by-product. Nearly 20 years later, scientists confirmed van Niel’s hypothesis by using oxygen-18 (¹⁸O), a heavy isotope, as a tracer. The O₂ produced by plants was labeled with ¹⁸O only if water was the source of the tracer (experiment 1). If the ¹⁸O was introduced in the form of CO₂, the label did not turn up in the released O₂ (experiment 2)." },
+    { "type": "figure", "label": "Figure 10.4", "text": "Tracking atoms through photosynthesis. In C₆H₁₂O₆, C₆ and O₆ come from CO₂ and H₁₂ comes from H₂O. In the 6 H₂O formed, H comes from H₂O and O comes from CO₂. The 6 O₂ comes from H₂O.", "lab": "atoms",
+      "labShots": [
+        { "src": "/book/lab-atoms.png", "caption": "Every molecule tinted by where its atoms came from" }
+      ] },
+    { "type": "h3", "text": "Photosynthesis as a Redox Process" },
+    { "type": "p", "text": "Both photosynthesis and cellular respiration involve redox reactions. Photosynthesis reverses the direction of electron flow. Water is split, and its electrons are transferred along with hydrogen ions (H⁺) from the water to carbon dioxide, reducing it to sugar. Because the electrons increase in potential energy as they move from water to sugar, this process requires energy—in other words, it is endergonic. This energy boost is provided by light." },
+    { "type": "equation", "text": "Energy + 6 CO₂ + 6 H₂O → C₆H₁₂O₆ + 6 O₂   (CO₂ becomes reduced; H₂O becomes oxidized)" },
+    { "type": "h2", "text": "The Two Stages of Photosynthesis: A Preview" },
+    { "type": "p", "text": "Photosynthesis is not a single process, but two processes, each of which has multiple steps: the light reactions (the photo part of photosynthesis) and the Calvin cycle (the synthesis part). The light reactions use solar energy to make ATP and NADPH, which supply chemical energy and reducing power, respectively, to the Calvin cycle. Water is split, giving off O₂ as a by-product. The light reactions produce no sugar; that happens in the Calvin cycle, which incorporates CO₂ into organic molecules (carbon fixation) and reduces the fixed carbon to carbohydrate. The steps of the Calvin cycle are sometimes called the dark reactions, or light-independent reactions, because none of the steps requires light directly. Nevertheless, the Calvin cycle in most plants occurs during daylight, for only then can the light reactions provide the NADPH and ATP that the Calvin cycle requires." },
+    { "type": "figure", "label": "Figure 10.5", "text": "An overview of photosynthesis: cooperation of the light reactions and the Calvin cycle. H₂O and light enter the thylakoid light reactions, which give off O₂ and produce ATP and NADPH for the Calvin cycle in the stroma. The Calvin cycle takes in CO₂, gives off [CH₂O] (sugar) and returns ADP and NADP⁺ to the light reactions.", "lab": "system",
+      "image": "/book/fig10-5.png", "alt": "Chloroplast diagram: light and H₂O enter the light reactions in the thylakoid, which release O₂ and pass ATP and NADPH to the Calvin cycle in the stroma; the Calvin cycle takes in CO₂, releases sugar and returns ADP and NADP⁺", "layout": "wide",
+      "labShots": [
+        { "src": "/book/lab-two-stages.png", "caption": "Run both stages live and follow the ¹⁸O label out as O₂" }
+      ] },
+    { "type": "check", "title": "Concept Check 10.2", "items": ["MAKE CONNECTIONS How do the CO₂ molecules used in photosynthesis reach and enter the chloroplasts inside leaf cells?", "Explain how the use of an oxygen isotope helped elucidate the chemistry of photosynthesis.", "WHAT IF? The Calvin cycle requires ATP and NADPH, products of the light reactions. If a classmate asserted that the light reactions don’t depend on the Calvin cycle and, with continual light, could just keep on producing ATP and NADPH, how would you respond?"] }
+  ],
+
+  "conceptCheck": [
+    { "id": "q1", "tag": "MAKE CONNECTIONS", "text": "How do the CO₂ molecules used in photosynthesis reach and enter the chloroplasts inside leaf cells?" },
+    { "id": "q2", "tag": "", "text": "Explain how the use of an oxygen isotope helped elucidate the chemistry of photosynthesis." },
+    { "id": "q3", "tag": "WHAT IF?", "text": "If a classmate asserted that the light reactions don’t depend on the Calvin cycle and, with continual light, could just keep on producing ATP and NADPH, how would you respond?" }
+  ],
+
+  "zoom": {
+    "enter": "Zoom into a leaf",
+    "levels": [
+      {
+        "id": "leaf",
+        "name": "Leaf cross-section",
+        "crumb": "Leaf",
+        "scale": "100 µm",
+        "source": "Figure 10.3",
+        "facts": ["About half a million chloroplasts per mm² of leaf surface", "Chloroplasts are found mainly in mesophyll cells", "CO₂ enters and O₂ exits through stomata; veins bring water and export sugar"],
+        "hotspot": "Enter a mesophyll cell"
+      },
+      {
+        "id": "cell",
+        "name": "Mesophyll cell",
+        "crumb": "Mesophyll cell",
+        "scale": "20 µm",
+        "source": "Figure 10.3 · Chloroplasts in Motion",
+        "facts": ["A typical mesophyll cell has about 30–40 chloroplasts", "Chloroplasts move with the streaming cytoplasm"],
+        "hotspot": "Zoom into a chloroplast"
+      },
+      {
+        "id": "chloroplast",
+        "name": "Chloroplast",
+        "crumb": "Chloroplast",
+        "scale": "1 µm",
+        "source": "Figure 10.3",
+        "facts": ["Each chloroplast is about 2–4 µm by 4–7 µm", "Two membranes surround the stroma; thylakoids stack into grana", "Chlorophyll resides in the thylakoid membranes"],
+        "hotspot": "Open the two stages"
+      },
+      {
+        "id": "system",
+        "name": "The two stages",
+        "crumb": "Two stages",
+        "scale": "Model · Figure 10.5",
+        "source": "Figure 10.5",
+        "facts": ["Light reactions in the thylakoids make ATP and NADPH and give off O₂", "The Calvin cycle in the stroma fixes CO₂ into sugar", "ADP and NADP⁺ return to the light reactions"],
+        "hotspot": null
+      }
+    ],
+    "structures": {
+      "cuticle": "Cuticle and upper epidermis",
+      "mesophyll": "Mesophyll",
+      "mesophyllCell": "Mesophyll cell",
+      "chloroplast": "Chloroplast",
+      "airSpace": "Air space",
+      "vein": "Vein (xylem + phloem)",
+      "stoma": "Stoma",
+      "lowerEpidermis": "Lower epidermis",
+      "cellWall": "Cell wall",
+      "vacuole": "Central vacuole",
+      "nucleus": "Nucleus",
+      "outerMembrane": "Outer membrane",
+      "intermembrane": "Intermembrane space",
+      "innerMembrane": "Inner membrane",
+      "stroma": "Stroma",
+      "granum": "Granum",
+      "thylakoid": "Thylakoid",
+      "thylakoidSpace": "Thylakoid space",
+      "water": "H₂O from the vein",
+      "o2out": "O₂ released"
+    }
+  },
+
+  "co2Path": {
+    "source": "Concept Check 10.2 · question 1",
+    "instruction": "Click the structures in the order a CO₂ molecule passes through them, from the air outside to the place where it is used.",
+    "order": ["stoma", "airSpace", "mesophyllCell", "chloroplast"],
+    "steps": {
+      "stoma": "CO₂ enters the leaf through a stoma.",
+      "airSpace": "It diffuses through the air spaces of the mesophyll.",
+      "mesophyllCell": "It dissolves and diffuses across the plasma membrane into a mesophyll cell.",
+      "chloroplast": "It crosses the chloroplast membranes into the stroma, where the Calvin cycle uses it."
+    },
+    "hints": {
+      "stoma": "Start at the leaf surface. Where can a gas get in?",
+      "airSpace": "After entering, where does a gas travel inside the leaf?",
+      "mesophyllCell": "Which cells hold most of the chloroplasts?",
+      "chloroplast": "Inside the cell, where is CO₂ actually used?"
+    },
+    "done": "Path complete: stoma → air space → mesophyll cell → chloroplast."
+  },
+
+  "equations": {
+    "views": [
+      { "id": "full", "label": "Full" },
+      { "id": "net", "label": "Net" },
+      { "id": "simplest", "label": "[CH₂O]" },
+      { "id": "redox", "label": "Redox" },
+      { "id": "origin", "label": "Atom origin" }
+    ],
+    "full": [
+      { "t": "6 CO₂", "role": "co2" }, { "t": "+" }, { "t": "12 H₂O", "role": "h2o" }, { "t": "+" }, { "t": "light energy", "role": "light" }, { "t": "→" },
+      { "t": "C₆H₁₂O₆", "role": "sugar" }, { "t": "+" }, { "t": "6 O₂", "role": "o2" }, { "t": "+" }, { "t": "6 H₂O", "role": "h2oOut" }
+    ],
+    "net": [
+      { "t": "6 CO₂", "role": "co2" }, { "t": "+" }, { "t": "6 H₂O", "role": "h2o" }, { "t": "+" }, { "t": "light energy", "role": "light" }, { "t": "→" },
+      { "t": "C₆H₁₂O₆", "role": "sugar" }, { "t": "+" }, { "t": "6 O₂", "role": "o2" }
+    ],
+    "simplest": [
+      { "t": "CO₂", "role": "co2" }, { "t": "+" }, { "t": "H₂O", "role": "h2o" }, { "t": "→" }, { "t": "[CH₂O]", "role": "sugar" }, { "t": "+" }, { "t": "O₂", "role": "o2" }
+    ],
+    "redox": {
+      "line": [
+        { "t": "Energy", "role": "light" }, { "t": "+" }, { "t": "6 CO₂", "role": "co2" }, { "t": "+" }, { "t": "6 H₂O", "role": "h2o" }, { "t": "→" }, { "t": "C₆H₁₂O₆", "role": "sugar" }, { "t": "+" }, { "t": "6 O₂", "role": "o2" }
+      ],
+      "reduced": "CO₂ becomes reduced to sugar",
+      "oxidized": "H₂O becomes oxidized to O₂",
+      "note": "Electrons gain potential energy moving from water to sugar, so the process is endergonic; light provides the energy."
+    },
+    "origin": {
+      "reactants": [
+        { "parts": [{ "t": "6 C", "o": "co2" }, { "t": "O₂", "o": "co2" }] },
+        { "t": "+" },
+        { "parts": [{ "t": "12 H₂", "o": "h2o" }, { "t": "O", "o": "h2o" }] }
+      ],
+      "products": [
+        { "parts": [{ "t": "C₆", "o": "co2" }, { "t": "H₁₂", "o": "h2o" }, { "t": "O₆", "o": "co2" }] },
+        { "t": "+" },
+        { "parts": [{ "t": "6 H₂", "o": "h2o" }, { "t": "O", "o": "co2" }] },
+        { "t": "+" },
+        { "parts": [{ "t": "6 O₂", "o": "h2o" }] }
+      ],
+      "legend": { "co2": "atoms from CO₂", "h2o": "atoms from H₂O" }
+    }
+  },
+
+  "whatIf": {
+    "source": "Concept Check 10.2 · question 3",
+    "intro": "Your classmate says the light reactions don’t depend on the Calvin cycle and, with continual light, could just keep on producing ATP and NADPH. Predict, then test.",
+    "instruction": "Drag the end of each line to show what you think will happen.",
+    "predictions": [
+      {
+        "id": "o2NoCo2",
+        "scenario": "Light stays on, CO₂ is removed",
+        "series": "O₂ release (light reactions)",
+        "start": 70,
+        "correct": "decrease",
+        "misconception": "LIGHT_REACTIONS_INDEPENDENT"
+      },
+      {
+        "id": "sugarDark",
+        "scenario": "Light is switched off, CO₂ is present",
+        "series": "Sugar output (Calvin cycle)",
+        "start": 70,
+        "correct": "decrease",
+        "misconception": "CALVIN_CYCLE_RUNS_IN_DARK"
+      }
+    ],
+    "confirm": "Use these predictions",
+    "tests": [
+      { "id": "co2Off", "label": "Remove CO₂ while the light stays on", "evidence": "CO₂ off" },
+      { "id": "lightOff", "label": "Switch the light off while CO₂ is present", "evidence": "Light off" }
+    ],
+    "trialText": {
+      "co2Off": "CO₂ {from} → {to}. Sugar output fell to {sugar}. ATP and NADPH piled up ({atp}%), ADP and NADP⁺ ran out, so O₂ release fell {o2From} → {o2}.",
+      "lightOff": "Light {from} → {to}. O₂ release stopped. ATP and NADPH ran down to {atp}%, so sugar output fell {sugarFrom} → {sugar} even though CO₂ is present.",
+      "up": "{Var} {from} → {to}. O₂ release {o2From} → {o2}, sugar output {sugarFrom} → {sugar}.",
+      "down": "{Var} {from} → {to}. O₂ release {o2From} → {o2}, sugar output {sugarFrom} → {sugar}."
+    },
+    "verdict": {
+      "o2NoCo2": "With no CO₂ the Calvin cycle stopped returning ADP and NADP⁺, so the light reactions stopped too.",
+      "sugarDark": "In the dark the light reactions stopped supplying ATP and NADPH, so the Calvin cycle stopped too."
+    }
+  },
+
+  "atoms": {
+    "source": "The Splitting of Water: Scientific Inquiry · Figure 10.4",
+    "question": "Where does the O₂ released by plants come from?",
+    "hypothesisInstruction": "Drag the pin onto the hypothesis you support before you run the tracer experiments.",
+    "hypotheses": [
+      {
+        "id": "co2",
+        "name": "Prevailing hypothesis (before the 1930s)",
+        "lines": ["CO₂ → C + O₂", "C + H₂O → [CH₂O]"],
+        "claim": "O₂ comes from CO₂"
+      },
+      {
+        "id": "water",
+        "name": "van Niel’s hypothesis (1930s)",
+        "lines": ["General: CO₂ + 2 H₂X → [CH₂O] + H₂O + 2 X", "Sulfur bacteria: CO₂ + 2 H₂S → [CH₂O] + H₂O + 2 S", "Plants: CO₂ + 2 H₂O → [CH₂O] + H₂O + O₂"],
+        "claim": "O₂ comes from splitting H₂O"
+      }
+    ],
+    "isotopeInstruction": "Drag the ¹⁸O tag onto H₂O or CO₂ in the chloroplast, then follow the green labeled atoms. Run both experiments.",
+    "experiments": [
+      {
+        "id": "h2o18",
+        "label": "Experiment 1",
+        "target": "H2O",
+        "tracer": "¹⁸O in H₂O",
+        "equation": [
+          { "parts": [{ "t": "CO₂" }] }, { "t": "+" },
+          { "parts": [{ "t": "2 H₂" }, { "t": "O", "label": true }] }, { "t": "→" },
+          { "parts": [{ "t": "[CH₂O]" }] }, { "t": "+" },
+          { "parts": [{ "t": "H₂O" }] }, { "t": "+" },
+          { "parts": [{ "t": "O₂", "label": true }] }
+        ],
+        "result": "The released O₂ carried the ¹⁸O label."
+      },
+      {
+        "id": "co2_18",
+        "label": "Experiment 2",
+        "target": "CO2",
+        "tracer": "¹⁸O in CO₂",
+        "equation": [
+          { "parts": [{ "t": "C" }, { "t": "O₂", "label": true }] }, { "t": "+" },
+          { "parts": [{ "t": "2 H₂O" }] }, { "t": "→" },
+          { "parts": [{ "t": "[CH₂" }, { "t": "O", "label": true }, { "t": "]" }] }, { "t": "+" },
+          { "parts": [{ "t": "H₂" }, { "t": "O", "label": true }] }, { "t": "+" },
+          { "parts": [{ "t": "O₂" }] }
+        ],
+        "result": "The label turned up in the sugar and the water formed, not in the released O₂."
+      }
+    ],
+    "conclusion": "The O₂ given off by plants is derived from H₂O, not CO₂: the chloroplast splits water.",
+    "ledger": {
+      "instruction": "Figure 10.4 · Drag each atom to the product it ends up in. 6 CO₂ + 12 H₂O → C₆H₁₂O₆ + 6 H₂O + 6 O₂",
+      "tokens": [
+        { "id": "cCo2", "atom": "C", "from": "CO₂", "origin": "co2" },
+        { "id": "oCo2", "atom": "O", "from": "CO₂", "origin": "co2" },
+        { "id": "hH2o", "atom": "H", "from": "H₂O", "origin": "h2o" },
+        { "id": "oH2o", "atom": "O", "from": "H₂O", "origin": "h2o" }
+      ],
+      "products": [
+        { "id": "glucose", "name": "C₆H₁₂O₆", "slots": [{ "id": "glucoseC", "atom": "C₆", "answer": "cCo2" }, { "id": "glucoseH", "atom": "H₁₂", "answer": "hH2o" }, { "id": "glucoseO", "atom": "O₆", "answer": "oCo2" }] },
+        { "id": "water", "name": "6 H₂O", "slots": [{ "id": "waterH", "atom": "H₂", "answer": "hH2o" }, { "id": "waterO", "atom": "O", "answer": "oCo2" }] },
+        { "id": "oxygen", "name": "6 O₂", "slots": [{ "id": "oxygenO", "atom": "O₂", "answer": "oH2o" }] }
+      ],
+      "hints": {
+        "oxygenO": "Look at experiment 1: which reactant labeled the released O₂?",
+        "waterO": "Experiment 2 put the CO₂ label into the water formed.",
+        "glucoseO": "Experiment 2 put the CO₂ label into the sugar.",
+        "glucoseC": "Only one reactant contains carbon.",
+        "glucoseH": "Which reactant is the hydrogen source?",
+        "waterH": "Which reactant is the hydrogen source?"
+      },
+      "done": "Every atom placed. Hydrogen is extracted from water and incorporated into sugar; O₂ is the waste product."
+    }
+  },
+
+  "challenge": {
+    "intro": "Three mystery chloroplasts. Read the live readouts, act in the scene to diagnose each one, then justify your diagnosis.",
+    "cases": [
+      {
+        "id": "stomata",
+        "title": "Case 1 · A hot, dry afternoon",
+        "story": "The sun is bright, but this leaf has closed its stomata to save water. Watch the readouts.",
+        "setup": { "light": 90, "co2": 0, "hSource": "H2O" },
+        "steps": [
+          { "type": "click", "prompt": "Click the structure that caused the problem.", "answer": "stoma", "hint": "Sugar output stopped first. What does the Calvin cycle need from outside the chloroplast, and how does it get in?" },
+          { "type": "click", "prompt": "Now click the stage that stopped first.", "answer": "stroma", "hint": "Which stage uses CO₂ directly?" }
+        ],
+        "why": "Why did O₂ release also fall, even though the light is bright?",
+        "clears": "LIGHT_REACTIONS_INDEPENDENT"
+      },
+      {
+        "id": "night",
+        "title": "Case 2 · Midnight",
+        "story": "CO₂ is plentiful, but it is the middle of the night. The ‘light-independent’ Calvin cycle has stopped. Why?",
+        "setup": { "light": 0, "co2": 80, "hSource": "H2O" },
+        "steps": [
+          { "type": "click", "prompt": "Click the stage that is no longer supplying what the Calvin cycle needs.", "answer": "thylakoid", "hint": "The readouts show ATP and NADPH ran out. Where are they made?" }
+        ],
+        "why": "Why can’t the Calvin cycle run at night, even though none of its steps uses light directly?",
+        "clears": "CALVIN_CYCLE_RUNS_IN_DARK"
+      },
+      {
+        "id": "sulfur",
+        "title": "Case 3 · van Niel’s sulfur bacterium",
+        "story": "This photosynthetic bacterium makes carbohydrate from CO₂ but uses hydrogen sulfide (H₂S) instead of water.",
+        "setup": { "light": 90, "co2": 80, "hSource": "H2S" },
+        "steps": [
+          { "type": "drop", "prompt": "Drag the by-product this organism releases into the product slot.", "options": ["S", "O2"], "answer": "S", "hint": "Use van Niel’s general equation: CO₂ + 2 H₂X → [CH₂O] + H₂O + 2 X." }
+        ],
+        "why": "Why does this organism release sulfur instead of oxygen?",
+        "clears": "O2_COMES_FROM_CO2"
+      }
+    ],
+    "passCount": 2
+  }
+}
